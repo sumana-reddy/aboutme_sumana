@@ -1,0 +1,28 @@
+I'm a new student of Spring batch, pursueing master's degree in Applied Computer Science. Computer Science is my area of interest all the time. As my under graduation is done in Electronics and Computer Science Engineering at K L University I'm having  knowledge on both electronics subjects and computers  subjects too. I have many certifications like python, Tableau and Visual Analytics, and I have done my final year project in the stream of Cyber Security.
+
+I have completed my schooling in 2013 and have earned my intermediate degree in the year 2015. After that, I have done my Under graduation in the year 2019. Doing research on new things which I don't know is my major hobby. I will know the things either by browsing in the internet or by asking others. As well as doing things in a different way and thinking in a unique way are my hobbies.
+
+The type of work which I would like to do is developer role, technology analyst, business analyst, system analyst, Associate, senior Software Engineer, Systems Architect.
+
+As I have mentioned in the above paragraphs there is nothing more interesting about me. And here is my viewable and clickable Linkedin profile [link](https://www.linkedin.com/in/sumana-reddy-58487219a/)
+
+
+<div class="wrapper">
+
+	<h1>Grade Calculator</h1>
+
+	<div class="directions">Input your grades separated by commas:</div>
+
+	<input id="yourgrades" type="text" />
+	<input id="submitbutton" type="button" value="Calculate" onClick="submit();"/>
+
+	<p>Your grades from high to low:</p>
+	<div id="grades"></div>
+
+	<p>Your average grade is:</p>
+	<div id="avg_grades"></div>
+
+	<p>Your final grade is:</p>
+	<div id="final_grade"></div>
+
+</div>
