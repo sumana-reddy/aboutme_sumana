@@ -5,7 +5,7 @@ var word_Length = (x) => {
   var word_Length = new Vue({
       el: '#word_Length',
       data: {
-        word : 'rakeshkumar'
+        word : 'Sumana Reddy'
         },
       computed: {
           length : function () {
