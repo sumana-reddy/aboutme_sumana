@@ -4,9 +4,21 @@
     shape-margin: 10%;
 }
 
+body{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+position: relative;
+}
+
 img
 {
     border-radius: 50%;
+    position: relative;
+    left: 75%;
+    top:-2%;
 }
 
 a:link, a:visited {
@@ -18,52 +30,59 @@ a:link, a:visited {
     display: inline-block;
   }
 
-
-div.container
-{
-    padding: 40px; 
-    text-align: center; 
-    background: #c2bbbe;
-    color: white; 
+#mainheadding{
+  padding: 2em;
+  margin: 2em;
 }
-div.header 
-{
-    padding: 50px; 
-    text-align: center; 
-    color: rgb(7, 139, 62); 
-  }
-  .header h2 {
-    font-size: 30px;
-    text-size-adjust: 100px;
-  }
+
+#about{
+  background-color:rgb(122, 193, 206);
+  border-top-right-radius: 7%;
+  border-top-left-radius: 7%;
+  border-bottom-left-radius: 7%;
+  border-bottom-right-radius: 7%;
+  padding: 2em;
+  margin: 2em;
+}
+.alabtme{
+  margin: 2em;
+  padding: 2em;
+  text-align: center
+}
+
+
+.contact-form{
+  background:grey;
+
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 20%;
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+.contact-form form{
+  padding: 14%;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+.contact-form h3{
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.text-white{
+  color: #fff;
+}
+#output div img{
+  top: 0;
+  left: 0;
+}
   
 
-  div.headders {
-    padding: 50px; 
-    text-align: center; 
-    color: rgb(15, 6, 138); 
-  }
-  div.headders h2 {
-    font-size: 30px;
-    text-size-adjust: 100px;
-  }
-  div.trdheader {
-    padding: 50px; 
-    text-align: center; 
-    color: rgb(66, 23, 3); 
-  }
-  div.trdheader h2 {
-    font-size: 30px;
-    text-size-adjust: 100px;
-  }
-  body{
-   
-    color: rgb(29, 17, 17);
-    font-family: Lato, sans-serif;
-    line-height: 1.4;
-    font-size: 90%;
-    margin: 2rem;
-  }
+ 
 .footerText {
   padding: 40px; 
   text-align: center; 
